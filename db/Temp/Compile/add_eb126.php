@@ -28,7 +28,7 @@
                 ,formatUploadUrl:false
         ,allowFileManager:false
         ,allowImageUpload:true
-        ,uploadJson : "http://localhost/github/one/db.php/News&m=keditor_upload&editor_type=2&image=1&uploadsize=2000000&maximagewidth=false&maximageheight=false&hd_sid=3om9rko9o2k197hpdjcf3c4c91"//处理上传脚本
+        ,uploadJson : "http://localhost/github/one/db.php/News&m=keditor_upload&editor_type=2&image=1&uploadsize=2000000&maximagewidth=false&maximageheight=false&hd_sid=lj6j8nra6nqioi6iunn2m3vf97"//处理上传脚本
         };var hd_content;
         KindEditor.ready(function(K) {
                     hd_content = KindEditor.create("#hd_content",options_content);

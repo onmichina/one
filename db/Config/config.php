@@ -11,5 +11,9 @@ return array(
 		"DB_PASSWORD"			=>"",//数据库密码
 		"DB_DATABASE"			=>"v5",//数据库名称
 		"DB_PREFIX"				=>"",//表前缀	
+		//路由配置定义，正则表达式
+		'route'=>array(
+			'/^(\d+).html$/'=>'News/content/id/#1'
+		)
 );
 ?>

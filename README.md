@@ -16,11 +16,16 @@ SITE: http://www.zan3.com
 
 学习永无止境，看你耐心如何应对！
 ---
+>#2014年2月21日 14:02:06
+1. alter table news rename hd_news; 修改表前缀;**
+1. create table hd_category(cid smallint primary key auto_increment,cname char(30))charset utf8;
+
 
 >#2014年2月20日 23:54:47
 1. git add -A  修改追加git里面
 2. git commit -m '提交内容注释'
 3. git push 提交远程服务器
+
 ---
 >#2014年2月20日 14:34:21
 1.mysql -uroot -p
