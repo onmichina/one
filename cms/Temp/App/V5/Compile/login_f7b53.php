@@ -12,7 +12,7 @@
 		HOST = 'http://localhost';
 		ROOT = 'http://localhost/github/one';
 		WEB = 'http://localhost/github/one/index.php';
-		URL = 'http://localhost/github/one/index.php/v5/login/login';
+		URL = 'http://localhost/github/one/index.php/V5/Login/login';
 		HDPHP = 'http://localhost/github/one/hdphp';
 		HDPHPDATA = 'http://localhost/github/one/hdphp/Data';
 		HDPHPTPL = 'http://localhost/github/one/hdphp/Lib/Tpl';
@@ -37,7 +37,7 @@
 </head>
 <body>
 <h2>管理员登陆</h2>
-<form action="" method="post" class="hd-form">
+<form action="http://localhost/github/one/index.php/V5/Login/login" method="post" class="hd-form">
 	<table class="table1">
 		<tr>
 			<td class="w100">账号</td>
