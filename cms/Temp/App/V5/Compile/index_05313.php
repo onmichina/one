@@ -4,33 +4,35 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
     <title>HDCMS - 后台管理中心</title>
-    <script type='text/javascript' src='http://localhost/github/one/hdphp/../hdjs/jquery-1.8.2.min.js'></script>
-<link href='http://localhost/github/one/hdphp/../hdjs/css/hdjs.css' rel='stylesheet' media='screen'>
-<script src='http://localhost/github/one/hdphp/../hdjs/js/hdjs.js'></script>
-<script src='http://localhost/github/one/hdphp/../hdjs/js/slide.js'></script>
-<script src='http://localhost/github/one/hdphp/../hdjs/org/cal/lhgcalendar.min.js'></script>
+    <script type='text/javascript' src='http://localhost/git/one/hdphp/../hdjs/jquery-1.8.2.min.js'></script>
+<link href='http://localhost/git/one/hdphp/../hdjs/css/hdjs.css' rel='stylesheet' media='screen'>
+<script src='http://localhost/git/one/hdphp/../hdjs/js/hdjs.js'></script>
+<script src='http://localhost/git/one/hdphp/../hdjs/js/slide.js'></script>
+<script src='http://localhost/git/one/hdphp/../hdjs/org/cal/lhgcalendar.min.js'></script>
 <script type='text/javascript'>
 		HOST = 'http://localhost';
-		ROOT = 'http://localhost/github/one';
-		WEB = 'http://localhost/github/one/index.php';
-		URL = 'http://localhost/github/one/index.php/V5/Index/index';
-		HDPHP = 'http://localhost/github/one/hdphp';
-		HDPHPDATA = 'http://localhost/github/one/hdphp/Data';
-		HDPHPTPL = 'http://localhost/github/one/hdphp/Lib/Tpl';
-		HDPHPEXTEND = 'http://localhost/github/one/hdphp/Extend';
-		APP = 'http://localhost/github/one/index.php/V5';
-		CONTROL = 'http://localhost/github/one/index.php/V5/Index';
-		METH = 'http://localhost/github/one/index.php/V5/Index/index';
-		GROUP = 'http://localhost/github/one/cms';
-		TPL = 'http://localhost/github/one/cms/App/V5/Tpl';
-		CONTROLTPL = 'http://localhost/github/one/cms/App/V5/Tpl/Index';
-		STATIC = 'http://localhost/github/one/Static';
-		PUBLIC = 'http://localhost/github/one/cms/App/V5/Tpl/Public';
+		ROOT = 'http://localhost/git/one';
+		WEB = 'http://localhost/git/one/index.php';
+		URL = 'http://localhost/git/one/index.php/V5/Index/index';
+		HDPHP = 'http://localhost/git/one/hdphp';
+		HDPHPDATA = 'http://localhost/git/one/hdphp/Data';
+		HDPHPTPL = 'http://localhost/git/one/hdphp/Lib/Tpl';
+		HDPHPEXTEND = 'http://localhost/git/one/hdphp/Extend';
+		APP = 'http://localhost/git/one/index.php/V5';
+		CONTROL = 'http://localhost/git/one/index.php/V5/Index';
+		METH = 'http://localhost/git/one/index.php/V5/Index/index';
+		GROUP = 'http://localhost/git/one/cms';
+		TPL = 'http://localhost/git/one/cms/App/V5/Tpl';
+		CONTROLTPL = 'http://localhost/git/one/cms/App/V5/Tpl/Index';
+		STATIC = 'http://localhost/git/one/Static';
+		PUBLIC = 'http://localhost/git/one/cms/App/V5/Tpl/Public';
+		HISTORY = 'http://localhost/git/one/index.php/V5/Login/login';
+		HTTPREFERER = 'http://localhost/git/one/index.php/V5/Login/login';
 </script>
-    <script type="text/javascript" src="http://localhost/github/one/cms/App/V5/Tpl/Index/js/menu.js"></script>
-    <script type="text/javascript" src="http://localhost/github/one/cms/App/V5/Tpl/Index/js/quick_menu.js"></script>
-    <link type="text/css" rel="stylesheet" href="http://localhost/github/one/cms/App/V5/Tpl/Index/css/css.css"/>
-    <link type="text/css" rel="stylesheet" href="http://localhost/github/one/cms/App/V5/Tpl/Index/css/quick_menu.css"/>
+    <script type="text/javascript" src="http://localhost/git/one/cms/App/V5/Tpl/Index/js/menu.js"></script>
+    <script type="text/javascript" src="http://localhost/git/one/cms/App/V5/Tpl/Index/js/quick_menu.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://localhost/git/one/cms/App/V5/Tpl/Index/css/css.css"/>
+    <link type="text/css" rel="stylesheet" href="http://localhost/git/one/cms/App/V5/Tpl/Index/css/quick_menu.css"/>
 </head>
 <body>
 <div class="nav">
@@ -61,7 +63,7 @@ endif;?>
     <div class="r_menu">
         <?php echo $_SESSION['username'];?>  <a href="<?php echo U('Login/out');?>" target="_self">[退出]</a><span>|</span>
         <a href="javascript:hd_ajax('<?php echo U('Cache/Cache/update_all');?>');">更新全站缓存</a><span>|</span>
-        <a href="http://localhost/github/one/index.php" target="_blank">前台首页</a>
+        <a href="http://localhost/git/one/index.php" target="_blank">前台首页</a>
     </div>
     <!--头部右侧导航-->
 </div>

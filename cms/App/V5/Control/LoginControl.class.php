@@ -33,6 +33,7 @@ class LoginControl extends control{
 	}
 	//会员登陆
 	public function login(){
+		echo md5('admin');
 		//如果存在直接跳到
 		if(session('aid'))
 			go("Index/index");
@@ -43,7 +44,10 @@ class LoginControl extends control{
 				$this->error('账号错误');
 			}//对密码的验证
 			if($user['password']!=md5($_POST['password'])){
+				$PWD=md5($_POST['password']);
+				P($PWD);
 				$this->error('密码错误');
+				
 			}
 			//当前账号密码输入正确时记录登陆状态
 			$_SESSION['aid']=$user['aid'];
