@@ -33,6 +33,7 @@
     <script type="text/javascript" src="http://localhost/git/one/cms/App/V5/Tpl/Index/js/quick_menu.js"></script>
     <link type="text/css" rel="stylesheet" href="http://localhost/git/one/cms/App/V5/Tpl/Index/css/css.css"/>
     <link type="text/css" rel="stylesheet" href="http://localhost/git/one/cms/App/V5/Tpl/Index/css/quick_menu.css"/>
+    <base target='iframe' />
 </head>
 <body>
 <div class="nav">
@@ -70,12 +71,19 @@ endif;?>
 <!--左侧导航-->
 <div class="main">
     <!--主体左侧导航-->
-    <div class="left_menu"></div>
+    <div class="left_menu">
+        <div class="nid-0">
+            <dl>
+                <dt>常用</dt>
+                <dd><a href="http://localhost/git/one/index.php/Category/category/index">栏目管理</a></dd>
+            </dl>
+        </div>
+    </div>
     <!--主体左侧导航-->
     <!--内容显示区域-->
 
     <div class="top_content">
-        <iframe src="<?php echo U('welcome');?>" nid="0" scrolling="auto" frameborder="0" style="height: 100%;width: 100%;"></iframe>
+        <iframe src="<?php echo U('welcome');?>" name="iframe" nid="0" scrolling="auto" frameborder="0" style="height: 100%;width: 100%;"></iframe>
     </div>
     <!--内容显示区域-->
 </div>
