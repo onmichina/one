@@ -75,7 +75,7 @@ endif;?>
         <div class="nid-0">
             <dl>
                 <dt>常用</dt>
-                <dd><a href="http://localhost/git/one/index.php/Category/category/index">栏目管理</a></dd>
+                <dd><a href="<?php echo U('Category/category/index');?>">栏目管理</a></dd>
             </dl>
         </div>
     </div>
