@@ -28,13 +28,19 @@ class CategoryModel extends Model{
 	public function add_category(){
 		//create就是对数据执行自动验证
 		if($this->create()){
-			return $this->add();
+			if($this->add()) {
+				//更新缓存
+				return $this->update_cache();
+			}
 		}
 	}
 	//修改栏目
 	public function edit_category(){
 		if($this->create()){
-			return $this->save();
+			if($this->save()){
+				//更新缓存
+				return $this->update_cache();
+			}
 		}
 	}
 	//删除栏目
@@ -47,6 +53,12 @@ class CategoryModel extends Model{
 		}else{
 			return $rhis->del($cid);
 		}
+	}
+	//更新缓存
+	public function update_cache(){
+		//获取表中所有栏目数据
+		$category = Data::tree($this->all(),'cname'); //处理一下数据
+		return F("category",$category);//file_put_contents()存储文件缓存
 	}
 }
 ?>

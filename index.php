@@ -22,6 +22,8 @@
 define("DEBUG", true);
 //设置应用目录
 define("GROUP_PATH", "cms/");
+//缓存目录
+define('CACHE_PATH','Data/cache');
 //引入框架核心文件
 require './hdphp/hdphp.php';
 ?>

@@ -13,7 +13,7 @@
 		HOST = 'http://localhost';
 		ROOT = 'http://localhost/git/one';
 		WEB = 'http://localhost/git/one/index.php';
-		URL = 'http://localhost/git/one/index.php/V5/Index/index';
+		URL = 'http://localhost/git/one/index.php';
 		HDPHP = 'http://localhost/git/one/hdphp';
 		HDPHPDATA = 'http://localhost/git/one/hdphp/Data';
 		HDPHPTPL = 'http://localhost/git/one/hdphp/Lib/Tpl';
@@ -26,8 +26,6 @@
 		CONTROLTPL = 'http://localhost/git/one/cms/App/V5/Tpl/Index';
 		STATIC = 'http://localhost/git/one/Static';
 		PUBLIC = 'http://localhost/git/one/cms/App/V5/Tpl/Public';
-		HISTORY = 'http://localhost/git/one/index.php/V5/Login/login';
-		HTTPREFERER = 'http://localhost/git/one/index.php/V5/Login/login';
 </script>
     <script type="text/javascript" src="http://localhost/git/one/cms/App/V5/Tpl/Index/js/menu.js"></script>
     <script type="text/javascript" src="http://localhost/git/one/cms/App/V5/Tpl/Index/js/quick_menu.js"></script>

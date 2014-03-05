@@ -12,7 +12,7 @@
 		HOST = 'http://localhost';
 		ROOT = 'http://localhost/git/one';
 		WEB = 'http://localhost/git/one/index.php';
-		URL = 'http://localhost/git/one/index.php/Category/Category/add';
+		URL = 'http://localhost/git/one/index.php/Category/Category&m=add&pid=9';
 		HDPHP = 'http://localhost/git/one/hdphp';
 		HDPHPDATA = 'http://localhost/git/one/hdphp/Data';
 		HDPHPTPL = 'http://localhost/git/one/hdphp/Lib/Tpl';
@@ -35,6 +35,7 @@
 <div class="menu_list">
 	<ul>
 		<li><a href="<?php echo U('index');?>">栏目列表</a></li>
+		<li><a href="javascript:;" class="action">添加栏目</a></li>
 		<li><a href="">跟新栏目缓存</a></li>
 	</ul>
 </div>

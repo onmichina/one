@@ -11,5 +11,6 @@ return array(
 "DB_PASSWORD"			=>"",//数据库密码
 "DB_DATABASE"			=>"v5cms",//数据库名称
 "DB_PREFIX"				=>"v5_",//表前缀
+"DEFAULT_APP"           =>"v5",//默认的应用
 );
 ?>

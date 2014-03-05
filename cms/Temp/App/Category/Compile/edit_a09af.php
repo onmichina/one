@@ -12,7 +12,7 @@
 		HOST = 'http://localhost';
 		ROOT = 'http://localhost/git/one';
 		WEB = 'http://localhost/git/one/index.php';
-		URL = 'http://localhost/git/one/index.php/Category/Category/edit/cid/2';
+		URL = 'http://localhost/git/one/index.php/Category/Category/edit/cid/5';
 		HDPHP = 'http://localhost/git/one/hdphp';
 		HDPHPDATA = 'http://localhost/git/one/hdphp/Data';
 		HDPHPTPL = 'http://localhost/git/one/hdphp/Lib/Tpl';
@@ -25,8 +25,8 @@
 		CONTROLTPL = 'http://localhost/git/one/cms/App/Category/Tpl/Category';
 		STATIC = 'http://localhost/git/one/Static';
 		PUBLIC = 'http://localhost/git/one/cms/App/Category/Tpl/Public';
-		HISTORY = 'http://localhost/git/one/index.php/Category/Category/index';
-		HTTPREFERER = 'http://localhost/git/one/index.php/Category/Category/index';
+		HISTORY = 'http://localhost/git/one/index.php/Category/category/index';
+		HTTPREFERER = 'http://localhost/git/one/index.php/Category/category/index';
 </script>
 	<script type="text/javascript" src="http://localhost/git/one/cms/App/Category/Tpl/Category/js/validate.js"></script>
 	<script type="text/javascript" src="http://localhost/git/one/cms/App/Category/Tpl/Category/js/js.js"></script>
